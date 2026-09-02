@@ -16,8 +16,45 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: What happened?
-      description: Describe the problem in your own words. Add any steps, screenshots, recordings, or other context that may help.
-      placeholder: Tell us what happened.
+      label: Description
+      description: What's the bug? Describe what you saw in plain language.
+      value: |
+        Summary:
+
+        Screenshots or recording:
+
+        Console errors:
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to reproduce. What was the actual behavior? What was the expected behavior?
+      description: Describe how to reproduce the bug and what you expected to happen.
+      value: |
+        1.
+        2.
+        3.
+
+        Actual behavior:
+
+        Expected behavior:
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: This information is filled in automatically when you report a problem from App Service.
+      value: |
+        page:
+        route:
+        version:
+        browser:
+        host:
+        timestamp:
+        sessionId:
     validations:
       required: true
