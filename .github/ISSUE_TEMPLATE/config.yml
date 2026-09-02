@@ -3,6 +3,3 @@ contact_links:
   - name: Azure Support
     url: https://azure.microsoft.com/support/create-ticket/
     about: Get help with production incidents, service outages, billing, accounts, subscriptions, quotas, or private resource troubleshooting.
-  - name: Report a security vulnerability
-    url: https://msrc.microsoft.com/report/vulnerability/new
-    about: Report security vulnerabilities privately to the Microsoft Security Response Center.
