@@ -9,6 +9,8 @@ body:
       value: |
         Thanks for helping improve the Azure App Service portal experience.
 
+        Note: Enterprise Managed User (EMU) accounts can't open issues in this repository. Use a regular GitHub.com account instead.
+
         This public issue tracker is not an Azure Support channel. For production incidents, billing, or account and subscription help, [contact Azure Support](https://azure.microsoft.com/support/create-ticket/).
 
         Do not include secrets, access tokens, personal information, subscription IDs, resource IDs, or resource names. Report security vulnerabilities privately to the [Microsoft Security Response Center](https://aka.ms/security.md).
